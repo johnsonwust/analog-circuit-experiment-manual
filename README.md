@@ -47,7 +47,7 @@ This kit allows students to explore the characteristics of electronic components
 
 ## Parts List / 零部件清单
 
-![Parts](images/s01_parts.jpg)
+![Parts](Pieces.jpg)
 
 | Part | Qty | Part | Qty |
 |------|-----|------|-----|
