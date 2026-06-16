@@ -69,42 +69,61 @@ This kit allows students to explore the characteristics of electronic components
 ### Step 1 — Assemble the Motor & Speed Controller / 组装马达与调速盘
 
 1. Remove all modules from the body of the kit. Use 2 motors and 2 pan-head screws to attach them.
-2. After assembly, use the speed controller dial to adjust motor speed.
 
-
+> **ZH:** 取出本体组件内的所有模块，备用。再取马达，用 2 颗较长螺丝轻松安装好。
+> 
 ![Assembly](images/Unpack.jpg)
 
 ![Assembly](images/MotorBack.jpg)
 
 ![Assembly](images/MotorPacking.jpg)
 
-> **ZH:** 取出本体组件内的所有模块，备用。再取马达，用 2 颗盘头贸丝轻松安装好。再将调速盘用贸丝安装在马达上。
+2. After assembly, use the speed controller dial (Fan-like) to adjust motor speed.
 
+> **ZH:** 将调速扇用螺丝安装在马达上。
+
+![Assembly](images/FanPlacing.jpg)
 
 ---
 
 ### Step 2 — Fix the Back Panel / 固定面板
 
-1. As shown in Fig. 3, take the Carbon Film Resistor module and orient it in the direction shown, then attach it to the body unit.
-2. As shown in Fig. 4, take the Selection Module and secure it to the correct position.
+1. As shown in Fig. , take the Carbon Film Resistor module and orient it in the direction shown, then attach it to the body unit.
 
-> **ZH:** 如图3，取出碳膜贴片，按图示方向安装在本体组件上。如图4，取出选台袋组，将其安装在正确位置。
+
+> **ZH:** 如图，取出喇叭盖，按图示方向安装在本体组件上。
+
+![Assembly](images/Board.jpg)
+
+2. As shown in Fig. , take the Selection Module and secure it to the correct position.
+
+> **ZH:** 如图，取出选台袋组，将其安装在正确位置。
+
+![Assembly](images/SoundButton0.jpg)
+![Assembly](images/SoundButton.jpg)
 
 ---
 
 ### Step 3 — Fix the Front Panel / 固定面板
 
-1. As shown in Figs. 5 & 6, orient the panel in the direction shown and place it onto the body unit. Use flat-head screws to secure the Carbon Film Resistor at the proper position (note the quantity marker).
+1. As shown in Figs. , orient the panel in the direction shown and place it onto the body unit.
 
-> **ZH:** 如图5、6示，取出此面板正面朝正确方向安装在本体组件上，再取平头贸丝将碳膜贴片固定在面板正确的位置（注意数量标记）。
+> **ZH:** 如图所示，取出此面板正面朝正确方向安装在本体组件上，再取螺丝将碳膜贴片固定在面板正确的位置（注意数量标记）。
 
+![Assembly](images/Hide.jpg)
+
+2.Use flat-head screws to secure the Carbon Film Resistor at the proper position (note the quantity marker).
+
+> **ZH:** 再取螺丝将碳膜贴片固定在面板正确的位置（注意数量标记）。
+![Assembly](images/2btn.jpg)
+![Assembly](images/2btn1.jpg)
 ---
 
 ### Step 4 — Connect Motor Leads & Battery / 连接马达线与装电池
 
-1. As shown in Figs. 7 & 8, connect the motor leads to the motor terminals on the body unit. Turn the knife switch to "OFF", then insert 3 "AA" batteries.
+1. As shown in Figs., connect the motor leads to the motor terminals on the body unit. Turn the knife switch to "OFF", then insert 3 "AA" batteries.
 
-> **ZH:** 如图7、8，将连接线一端连接马达，另一端连接体上的马达接线口。然后将刀开关拨至“OFF”档，再取3节“AA”电池装入本体组件电池盒内。
+> **ZH:** 如图，将连接线一端连接马达，另一端连接体上的马达接线口。然后将刀开关拨至“OFF”档，再取3节“AA”电池装入本体组件电池盒内。
 
 ---
 
