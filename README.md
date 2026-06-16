@@ -3,7 +3,7 @@
 
 **exploring kid | Science Model Series**
 
-> **English** | [中文](#中文说明)
+> Bilingual | 中英双语
 
 ---
 
@@ -66,7 +66,7 @@ This kit allows students to explore the characteristics of electronic components
 
 ## Assembly Instructions / 怎样装配我们的产品？
 
-### Step 1 — Assemble the Motor & Speed Controller / 组装马达与调速盘
+### Step 1 — Assemble the Motor & Speed Controller / 组装马达与调速扇
 
 1. Remove all modules from the body of the kit. Use 2 motors and 2 pan-head screws to attach them.
 
@@ -80,7 +80,7 @@ This kit allows students to explore the characteristics of electronic components
 
 2. After assembly, use the speed controller dial (Fan-like) to adjust motor speed.
 
-> **ZH:** 将调速扇用螺丝安装在马达上。
+> **ZH:** 将调速扇安装在马达上。
 
 ![Assembly](images/FanPlacing.jpg)
 
@@ -97,7 +97,7 @@ This kit allows students to explore the characteristics of electronic components
 
 2. As shown in Fig. , take the Selection Module and secure it to the correct position.
 
-> **ZH:** 如图，取出选台袋组，将其安装在正确位置。
+> **ZH:** 如图，取出选喇叭旋钮，将其安装在正确位置。
 
 ![Assembly](images/SoundButton0.jpg)
 ![Assembly](images/SoundButton.jpg)
@@ -108,7 +108,7 @@ This kit allows students to explore the characteristics of electronic components
 
 1. As shown in Figs. , orient the panel in the direction shown and place it onto the body unit.
 
-> **ZH:** 如图所示，取出此面板正面朝正确方向安装在本体组件上，再取螺丝将碳膜贴片固定在面板正确的位置（注意数量标记）。
+> **ZH:** 如图所示，取出固定面板正面朝正确方向安装在本体组件上。
 
 ![Assembly](images/Hide.jpg)
 
@@ -126,13 +126,14 @@ This kit allows students to explore the characteristics of electronic components
 > **ZH:** 如图，将连接线一端连接马达，另一端连接体上的马达接线口。然后将刀开关拨至“OFF”档，再取3节“AA”电池装入本体组件电池盒内。
 ![Assembly](images/Power.jpg)
 ![Assembly](images/TurnOff.jpg)
-![Assembly](images/battery.jpg)
+![Assembly](images/Battery.jpg)
 
 ---
 
 ## Circuit Symbol Reference / 电路符号对照表
 
 ![Circuit Symbols](images/Formula.png)
+![Circuit Symbols](images/FormulaCN.png)
 
 > Refer to this table when reading the schematic diagrams in each experiment.
 > 阅读各实验中的电路原理图时，请参考此对照表。
@@ -403,7 +404,7 @@ This kit allows students to explore the characteristics of electronic components
 
 ## Basic Principles / 基本原理
 
-![Basic Principles](images/s09_basic_principles.jpg)
+![Basic Principles](images/Principles.png)
 
 ### What is a Circuit? / 什么是电路？
 
@@ -420,15 +421,14 @@ An **electric circuit** is a closed loop through which electric current can flow
 
 - **Diode (二极管):** One-directional current flow; used for rectification.
 - **Transistor (三极管/晶体管):** Small base current controls large collector current — amplification & switching.
-- **Capacitor (电容器):** Stores charge; creates time delays and filters signals.
-- **Photoresistor (光敏电阴):** Resistance decreases as light increases — light sensing.
-- **Electret Microphone (驻极体话筒):** Converts sound to electrical signals.
+- **Capacitor (电容):** Stores charge; creates time delays and filters signals.
+- **Photoresistor (光敏电):** Resistance decreases as light increases — light sensing.
+- **Electret Microphone (话筒):** Converts sound to electrical signals.
 
 ---
 
 ## Safety Notices / 安全注意事项
 
-![Safety](images/s11_safety.jpg)
 
 > ⚠️ **Please read all safety information before use / 使用前请阅读所有安全信息**
 
@@ -459,5 +459,6 @@ An **electric circuit** is a closed loop through which electric current can flow
 
 *Product Manual — Artificial Circuit Experiment, Science Model Series*
 *产品说明书 — 模拟电路实验科教模型系列*
+*Translator & Developer - Highsheep
 
 *© exploring kid / 探客少年 | 上海市静安区(中区) | 上海九科技管理有限公司 联合监制*
