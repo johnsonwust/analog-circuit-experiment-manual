@@ -460,5 +460,7 @@ An **electric circuit** is a closed loop through which electric current can flow
 *Product Manual — Artificial Circuit Experiment, Science Model Series*
 *产品说明书 — 模拟电路实验科教模型系列*
 
+*Translator & Developer - Highsheep 高绵羊
+
 
 *© exploring kid / 探客少年 | 上海市静安区(中区) | 上海九科技管理有限公司 联合监制*
