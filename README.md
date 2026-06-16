@@ -132,7 +132,7 @@ This kit allows students to explore the characteristics of electronic components
 
 ## Circuit Symbol Reference / 电路符号对照表
 
-![Circuit Symbols](images/Formula.jpg)
+![Circuit Symbols](images/Formula.png)
 
 > Refer to this table when reading the schematic diagrams in each experiment.
 > 阅读各实验中的电路原理图时，请参考此对照表。
@@ -173,7 +173,7 @@ This kit allows students to explore the characteristics of electronic components
 ### Exp 2: Directionality of Current & Rectification
 ### 实验二：电路方向性和整流作用实验
 
-![Exp 1-2 Diagrams](images/Ex2.png)
+![Exp 1-2 Diagrams](images/Exp2.png)
 **Objective / 目标:** Understand how a diode controls current direction.
 
 **Procedure / 步骤:**
