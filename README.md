@@ -51,8 +51,8 @@ This kit allows students to explore the characteristics of electronic components
 
 | Part | Qty | Part | Qty |
 |------|-----|------|-----|
-| Flat Screw (平头贸丝) | — | Pan-head Screw (盘头贸丝, 2 types) | — |
-| Carbon Film Resistor (碳膜贴片) | — | Potentiometer (调速盘) | — |
+| Flat Screw (螺丝) | — | Pan-head Screw (平头螺丝, 2 types) | — |
+| Carbon Film Resistor (挡板) | — | Potentiometer (调速扇) | — |
 | Selection Module (选台袋组) | — | Base Unit (本体组件) | — |
 | Selection Bracket (选台托架) | — | Motor (马达) | — |
 | Connector Clip − (连接插片−) | — | Knife Switch (拨锐刀) | — |
@@ -124,12 +124,15 @@ This kit allows students to explore the characteristics of electronic components
 1. As shown in Figs., connect the motor leads to the motor terminals on the body unit. Turn the knife switch to "OFF", then insert 3 "AA" batteries.
 
 > **ZH:** 如图，将连接线一端连接马达，另一端连接体上的马达接线口。然后将刀开关拨至“OFF”档，再取3节“AA”电池装入本体组件电池盒内。
+![Assembly](images/Power.jpg)
+![Assembly](images/TurnOff.jpg)
+![Assembly](images/battery.jpg)
 
 ---
 
 ## Circuit Symbol Reference / 电路符号对照表
 
-![Circuit Symbols](images/s10_circuit_symbols.jpg)
+![Circuit Symbols](images/Formula.jpg)
 
 > Refer to this table when reading the schematic diagrams in each experiment.
 > 阅读各实验中的电路原理图时，请参考此对照表。
@@ -149,28 +152,28 @@ This kit allows students to explore the characteristics of electronic components
 
 ## Experiments / 实验部分
 
-### Exp 1: Current Characteristics of Electronic Components
-### 实验一：电流对电子元件的特性实验
+### Exp 1: Current and Circuit Experiment
+### 实验一：电流和电路实验
 
-![Exp 1-2 Diagrams](images/s03_exp1_2.jpg)
+![Exp 1-2 Diagrams](images/Exp1.png)
 
-**Objective / 目标:** Understand how different components (LED, resistor) respond to current flow.
+**Objective / 目标:** Understand how a circuit forms.
 
 **Procedure / 步骤:**
-1. Connect the Electronic Module and turn the knife switch to **ON**.
-2. The LED indicator will light up — this is the basic functioning state.
-3. Insert modules one by one. Each addition increases LED brightness (parallel connection → lower resistance → more current).
-4. With 4 modules inserted simultaneously, the LED is at maximum brightness.
+1. Connect the Electronic Module shown in the Picture and turn the knife switch to **ON**.
+2. The LED indicator would light up — this is the basic functioning state.
+3. Remove one module, the LED would stop lighting.
 
-**Key principle / 简要原理:** Parallel paths lower total resistance and increase total current.
+**Key principle / 简要原理:** Circuits must need current flowing in it.
 
-> **ZH:** 接按图9将电子模块接上电子模块，开关开到“ON” LED灯会亮。通过实验知道，当电子模块一个一个插入时，每次插入后 LED灯越亮。实验中电子模块的数量越多，通过LED的电流越大。
+> **ZH:** 接按图将电子模块接上电子模块，开关开到“ON” LED灯会亮。通过实验知道，当电子模块一个一个插入时，每次插入后 LED灯越亮。实验中电子模块的数量越多，通过LED的电流越大。
 
 ---
 
 ### Exp 2: Directionality of Current & Rectification
 ### 实验二：电路方向性和整流作用实验
 
+![Exp 1-2 Diagrams](images/Ex2.png)
 **Objective / 目标:** Understand how a diode controls current direction.
 
 **Procedure / 步骤:**
@@ -179,14 +182,15 @@ This kit allows students to explore the characteristics of electronic components
 3. Reverse the diode 180° → LED turns off.
 4. Conclusion: diodes only allow current in **one direction**.
 
-> **ZH:** 接按图10，开关到“ON” LED灯会亮。按图方向将二极管接入+一极电路，LED灯亮。将二极管调换方向，LED不亮。说明电流只能沿一个方向通过二极管。
+> **ZH:** 接按图，开关到“ON” LED灯会亮。按图方向将二极管接入+一极电路，LED灯亮。将二极管调换方向，LED不亮。说明电流只能沿一个方向通过二极管。
 
 ---
 
 ### Exp 3: Semiconductor Characteristics
 ### 实验三：电晶体的特性实验
 
-![Exp 3-6 Diagrams](images/s04_exp3_6.jpg)
+
+![Exp 3-6 Diagrams](images/Exp3.png)
 
 **Objective / 目标:** Explore transistor (NPN) current amplification.
 
@@ -196,26 +200,28 @@ This kit allows students to explore the characteristics of electronic components
 3. Replace with smaller resistor → LED brightens significantly.
 4. Conclusion: **transistors amplify current**.
 
-> **ZH:** 接按图11，开关开到“ON”，电路连接后，LED灯仍然不亮。当接上基极大电阵时，LED灯微微发亮。当换上小一些阻値的电阵时，LED灯变得较亮。来分析结论：晶体管有放大电流的功能。
+> **ZH:** 接按图，开关开到“ON”，电路连接后，LED灯仍然不亮。当接上基极大电阵时，LED灯微微发亮。当换上小一些阻値的电阵时，LED灯变得较亮。来分析结论：晶体管有放大电流的功能。
 
 ---
 
 ### Exp 4: Brightness Control Circuit
 ### 实验四：灯亮度控制电路实验
 
+![Exp 1-2 Diagrams](images/Exp4.png)
 **Objective / 目标:** Use a potentiometer to control LED brightness via a transistor.
 
 **Procedure / 步骤:**
 1. Connect circuit with 20kΩ resistor and LED via transistor. Turn to **ON**.
 2. Rotate the potentiometer: **more resistance → LED dims**; **less resistance → LED brightens**.
 
-> **ZH:** 接按图12，开关到“ON”。通过改变可变电阵的阻値，LED亮度可以发生变化。阻値越大，LED越暗；阻値越小，LED越亮。
+> **ZH:** 接按图，开关到“ON”。通过改变可变电阵的阻値，LED亮度可以发生变化。阻値越大，LED越暗；阻値越小，LED越亮。
 
 ---
 
 ### Exp 5: Conductor & Insulator Test
 ### 实验五：导体和络缘体实验
 
+![Exp 1-2 Diagrams](images/Exp5.png)
 **Objective / 目标:** Identify which everyday materials conduct electricity.
 
 **Procedure / 步骤:**
@@ -223,28 +229,30 @@ This kit allows students to explore the characteristics of electronic components
 2. Touch probe tips to various materials.
 3. LED **on** = conductor (导体); LED **off** = insulator (络缘体).
 
-> **ZH:** 接按图13，开关开到“ON”，取连接插片→和连接插片一，另一端任意将这两端接触日常物品的两面。电路两端接触导体时，LED灯会亮；接触络缘体，LED灯不亮。
+> **ZH:** 接按图，开关开到“ON”，取连接插片→和连接插片一，另一端任意将这两端接触日常物品的两面。电路两端接触导体时，LED灯会亮；接触络缘体，LED灯不亮。
 
 ---
 
 ### Exp 6: Sound Amplifier Circuit
 ### 实验六：声光播放器电路实验
 
+![Exp 1-2 Diagrams](images/Exp6.png)
 **Objective / 目标:** Build a sound-activated light display using a microphone.
 
 **Procedure / 步骤:**
-1. Connect circuit as in Fig. 14. Turn to **ON**.
+1. Connect circuit as in Fig. . Turn to **ON**.
 2. Speak or play music near the microphone.
 3. LED flashes in response to audio signals.
 
-> **ZH:** 接按图14，开关开到“ON”。在这个实验中通过声音输入到声音播放器电路，再由声光播放器电路来控制LED工作状态。
+> **ZH:** 接按图，开关开到“ON”。在这个实验中通过声音输入到声音播放器电路，再由声光播放器电路来控制LED工作状态。
 
 ---
 
 ### Exp 7: Short-Circuit Detection
 ### 实验七：断路报知实验
 
-![Exp 7-8 Diagrams](images/s05_exp7_8.jpg)
+![Exp 1-2 Diagrams](images/Exp7.png)
+
 
 **Objective / 目标:** Detect open circuits using an LED indicator.
 
@@ -253,28 +261,29 @@ This kit allows students to explore the characteristics of electronic components
 2. Tricolor LED turns on when circuit is complete.
 3. When a break is detected in the circuit, LED changes color as a warning.
 
-> **ZH:** 接按图15电路后，开关开到“ON”，取连接插片→接到指示灯位置，电子模块插上电子模块。用刀开关开到“ON” LED灯亮。在这个实验中，LED是三色灯，从而了解灯的颜色变化是提示人进入警示区域的。
+> **ZH:** 接按图电路后，开关开到“ON”，取连接插片→接到指示灯位置，电子模块插上电子模块。用刀开关开到“ON” LED灯亮。在这个实验中，LED是三色灯，从而了解灯的颜色变化是提示人进入警示区域的。
 
 ---
 
 ### Exp 8: Multi-Frequency Oscillator
 ### 实验八：多重振荡器电路实验
 
+![Exp 1-2 Diagrams](images/Exp8.png)
 **Objective / 目标:** Observe oscillation and frequency control using transistors.
 
 **Procedure / 步骤:**
-1. Connect circuit as Fig. 16. Turn to **ON**.
+1. Connect circuit as Fig. . Turn to **ON**.
 2. Two LEDs blink alternately (astable multivibrator).
 3. Change capacitor/resistor values to vary the blink rate.
 
-> **ZH:** 接按图16，开关开到“ON”。在这个实验中，我们发现LED等的闪烁频率在不断地变化，通过实验知道，让这个电路的工作频率从而引起多重振荡。
+> **ZH:** 接按图，开关开到“ON”。在这个实验中，我们发现LED等的闪烁频率在不断地变化，通过实验知道，让这个电路的工作频率从而引起多重振荡。
 
 ---
 
 ### Exp 9: Transistor Amplifier
 ### 实验九：电晶体的电流放大实验
 
-![Exp 9-10 Diagrams](images/s06_exp9_10.jpg)
+![Exp 1-2 Diagrams](images/Exp9.png)
 
 **Objective / 目标:** Demonstrate transistor current gain (β factor).
 
@@ -282,108 +291,113 @@ This kit allows students to explore the characteristics of electronic components
 1. Connect Electronic Module and turn to **ON**.
 2. A small base current results in a significantly larger collector current (current gain β).
 
-> **ZH:** 接按图17，开关开到“ON”，连接指示灯到示意图位置，电路连接后，通过实验知道，这个电路中三极管的基极电流可以控制集电极电流，因此三极管有放大功能。
+> **ZH:** 接按图，开关开到“ON”，连接指示灯到示意图位置，电路连接后，通过实验知道，这个电路中三极管的基极电流可以控制集电极电流，因此三极管有放大功能。
 
 ---
 
 ### Exp 10: Motor Speed Control
 ### 实验十：马达调速实验
 
+![Exp 1-2 Diagrams](images/Exp10.png)
 **Objective / 目标:** Control motor rotation speed using the potentiometer.
 
 **Procedure / 步骤:**
-1. Connect circuit as Fig. 18. Turn to **ON**.
+1. Connect circuit as Fig. . Turn to **ON**.
 2. Rotate the speed dial — motor speed changes accordingly.
 
-> **ZH:** 接按图18，开关开到“ON”，连接指示灯到示意图位置，指示针的左右动作是通过三极管振荡电路驱动马达产生的，调节可调电阵，可以改变马达的转速。
+> **ZH:** 接按图，开关开到“ON”，连接指示灯到示意图位置，指示针的左右动作是通过三极管振荡电路驱动马达产生的，调节可调电阵，可以改变马达的转速。
 
 ---
 
 ### Exp 11: Radio Receiver Circuit
 ### 实验十一：收音机实验
 
-![Exp 11-12 Diagrams](images/s07_exp11_12.jpg)
+![Exp 1-2 Diagrams](images/Exp11.png)
 
 **Objective / 目标:** Build a simple AM radio receiver using LC tuning.
 
 **Procedure / 步骤:**
-1. Assemble antenna coil and connect circuit as Fig. 19. Turn to **ON**.
+1. Assemble antenna coil and connect circuit as Fig. . Turn to **ON**.
 2. Use the tuning dial (选台袋组) to select a station.
 3. LC resonant circuit tunes to the desired radio frequency.
 
-> **ZH:** 接按图19，本体使用了一个电感来放大天线信号。收音机电路是通过在接收天线电感中形成谐振，再通过放大级将之放大的方式来输出的。
+> **ZH:** 接按图，本体使用了一个电感来放大天线信号。收音机电路是通过在接收天线电感中形成谐振，再通过放大级将之放大的方式来输出的。
 
 ---
 
 ### Exp 12: Capacitor Delay Circuit
 ### 实验十二：电容体组成延时电路实验
 
+![Exp 1-2 Diagrams](images/Exp12.png)
 **Objective / 目标:** Observe how a capacitor creates a time delay (RC time constant).
 
 **Procedure / 步骤:**
-1. Connect as Fig. 20. Turn to **ON** — LED lights immediately.
+1. Connect as Fig. . Turn to **ON** — LED lights immediately.
 2. Turn switch **OFF**.
 3. LED does **not** turn off immediately — it gradually fades as capacitor discharges.
 
-> **ZH:** 接按图20，电源一接上，LED灯立即发亮。当断开电路后，LED灯也不会马上息灯，会慢慢变暗。这证明了电容器喂存电荷并慢慢释放的特性。
+> **ZH:** 接按图，电源一接上，LED灯立即发亮。当断开电路后，LED灯也不会马上息灯，会慢慢变暗。这证明了电容器喂存电荷并慢慢释放的特性。
 
 ---
 
 ### Exp 13: LED Auto Night-Light
 ### 实验十三：LED 小按灯自动点亮电路实验
 
-![Exp 13-16 Diagrams](images/s08_exp13_16.jpg)
+![Exp 1-2 Diagrams](images/Exp13.png)
 
 **Objective / 目标:** Build an automatic light that activates in darkness.
 
 **Procedure / 步骤:**
-1. Connect as Fig. 21. Turn to **ON**.
+1. Connect as Fig. . Turn to **ON**.
 2. In bright light: LED **off**.
 3. Cover the photoresistor (光敏电阴): resistance rises → transistor conducts → LED **on**.
 
-> **ZH:** 接按图21，处于白天有充足的阳光照射时，以阻挡光线越高，导通下面LED灯由此产生了自动点亮的功能。
+> **ZH:** 接按图，处于白天有充足的阳光照射时，以阻挡光线越高，导通下面LED灯由此产生了自动点亮的功能。
 
 ---
 
 ### Exp 14: Light-Controlled Delay Switch
 ### 实验十四：光控延时开关电路实验
 
+![Exp 1-2 Diagrams](images/Exp14.png)
 **Objective / 目标:** Build a light-activated switch with a time delay.
 
 **Procedure / 步骤:**
-1. Connect as Fig. 22. Turn to **ON**.
+1. Connect as Fig. . Turn to **ON**.
 2. Block the photoresistor completely → after ~10 seconds, LED turns **on**.
 3. Restore light → after ~10 seconds, LED turns **off**.
 
-> **ZH:** 接按图22，开关开到“ON”。在光照足够大时，光照消失，LED灯会延时约10秒后才息灯。这种光控延时开关可以结合路灯控制，实现到光线后延迟关灯功能。
+> **ZH:** 接按图，开关开到“ON”。在光照足够大时，光照消失，LED灯会延时约10秒后才息灯。这种光控延时开关可以结合路灯控制，实现到光线后延迟关灯功能。
 
 ---
 
 ### Exp 15: Sound-Triggered Flash Light
 ### 实验十五：声控闪光灯电路实验
 
+![Exp 1-2 Diagrams](images/Exp15.png)
 **Objective / 目标:** Build a circuit that flashes an LED in response to sound.
 
 **Procedure / 步骤:**
-1. Connect as Fig. 23. Turn to **ON**.
+1. Connect as Fig. . Turn to **ON**.
 2. Clap or speak near microphone → LED flashes briefly.
 3. Silence → LED off.
 
-> **ZH:** 接按图23，开关开到“ON”。对将3号声控闪光灯触发应用，通过声音大声呼叫使LED灯应声点亮闪光灯，声音消失，闪光灯停止工作。
+> **ZH:** 接按图，开关开到“ON”。对将3号声控闪光灯触发应用，通过声音大声呼叫使LED灯应声点亮闪光灯，声音消失，闪光灯停止工作。
 
 ---
 
 ### Exp 16: Sound-Controlled Delay Switch
 ### 实验十六：声控延时开关电路实验
 
+![Exp 1-2 Diagrams](images/Exp16.png)
 **Objective / 目标:** Build a voice-activated delay switch (staircase light principle).
 
 **Procedure / 步骤:**
-1. Connect as Fig. 24. Turn to **ON**.
+1. Connect as Fig. . Turn to **ON**.
 2. Clap or make a loud sound → LED turns **on** immediately.
 3. After ~10 seconds of silence → LED turns **off** automatically.
 
-> **ZH:** 接按图24，模拟LED灯亮点，马达开始，在 10 秒左右后停止。声控LED灯和马达工作后停止，可以实现声控延时开关工作。
+> **ZH:** 接按图，模拟LED灯亮点，马达开始，在 10 秒左右后停止。声控LED灯和马达工作后停止，可以实现声控延时开关工作。
 
 ---
 
