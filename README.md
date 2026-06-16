@@ -66,7 +66,11 @@ This kit allows students to explore the characteristics of electronic components
 
 ## Assembly Instructions / 怎样装配我们的产品？
 
-![Assembly](images/s02_assembly.jpg)
+![Assembly](images/Unpack.jpg)
+
+![Assembly](images/MotorBack.jpg)
+
+![Assembly](images/MotorPacking.jpg)
 
 ### Step 1 — Assemble the Motor & Speed Controller / 组装马达与调速盘
 
@@ -74,6 +78,7 @@ This kit allows students to explore the characteristics of electronic components
 2. After assembly, use the speed controller dial to adjust motor speed.
 
 > **ZH:** 取出本体组件内的所有模块，备用。再取马达，用 2 颗盘头贸丝轻松安装好。再将调速盘用贸丝安装在马达上。
+
 
 ---
 
